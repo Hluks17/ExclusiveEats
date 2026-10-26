@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exclusives EatOut</title>
+<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+<div class="top-header">
+<div class="logo"><img src ="pictures/logo.png">Exclusives EatOut</div>
+<ul class="top-links">
+<li><a href="Index.html">Homepage</a></li>
+<li><a href="Index.html#experience">About Us</a></li>
+<li><a href="Index.html#contactForm">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="second-header">
+<a href="Menu.html">Menu</a>
+<a href="Drinks.html">Drinks</a>
+<a href="Sides.html">Sides</a>
+<a href="Specials.html">Specials</a>
+<a href="Cart.html">Cart  <span id="cart-count">0</span></a>
+</div>
+
+
+<!-- MENU TITLE -->
+
+<section class="menu-title">
+<h1>Our Premium Menu</h1>
+<p>Freshly prepared meals made with premium ingredients.</p>
+</section>
+
+<!-- BURGER SECTION -->
+
+<section id="burgers" class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/menu/Burger.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Burgers</h2>
+
+<div class="menu-item">
+<div>
+<h3>Classic Exclusive Beef Burger</h3>
+<p>Beef patty, lettuce, tomato, cheese with Exclusive sauce</p>
+</div>
+<span>R105</span>
+<button onclick="addToCart('Classic Exclusive Burger',105)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Double Exclusive Cheese Burger</h3>
+<p>Double beef,cheddar cheese, lettuce, tomato, extra Exclusive sauce</p>
+</div>
+<span>R125</span>
+<button onclick="addToCart('Double Exclusive Cheese Burger',125)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3> Exclusive Bacon Deluxe</h3>
+<p>Beef patty, crispy bacon, cheese, tomato, Exclusive sauce</p>
+</div>
+<span>R145</span>
+<button onclick="addToCart('Bacon Deluxe Burger',145)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3> Triple Exclusive Beef burger</h3>
+<p> triple Beef patty, onion rings, extra cheese, tomato, Exclusive sauce</p>
+</div>
+<span>R155</span>
+<button onclick="addToCart('Bacon Deluxe Burger',155)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Pizza -->
+
+<section id="pizzas"class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/menu/pizza.jpeg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Pizzas</h2>
+
+<div class="menu-item">
+<div>
+<h3>Large Chicken Exclusive pizza</h3>
+<p>Thin with extra cheese and creamy chicken and Exclusive sauce</p>
+</div>
+<span>R150</span>
+<button onclick="addToCart('Large Chicken pizza ',150)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Large Pepperoni Exclusive Pizza</h3>
+<p>Thin with extra cheese and Pepperoni slices and Exclusive sauce</p>
+</div>
+<span>R160</span>
+<button onclick="addToCart('Large Pepperoni pizza',160)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Large BBQ chicken Exclusive Pizza</h3>
+<p>Thin with extra cheese and bbq and chicken stripes and Exclusive sauce</p>
+</div>
+<span>R180</span>
+<button onclick="addToCart('Large BBQ chicken Exclusive Pizza',160)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- Extras -->
+
+<section id="extras"class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/sides/rolls.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Extras</h2>
+
+<div class="menu-item">
+<div>
+<h3>Rolls</h3>
+<p>4 rolls</p>
+</div>
+<span>R40</span>
+<button onclick="addToCart('Rolls ',40)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Green salad</h3>
+<p>50g</p>
+</div>
+<span>R30</span>
+<button onclick="addToCart('green salad',130)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Spinich with Gravy</h3>
+<p>50gr each</p>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Spinich with Gravy',160)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- Chicken -->
+
+<section id="chickens" class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/menu/chicken.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Grilled Chicken</h2>
+
+<div class="menu-item">
+<div>
+<h3>Quarter chicken</h3>
+<p></p>
+</div>
+<span>R40</span>
+<button onclick="addToCart(' Quarter Chicken',40)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Half Chicken</h3>
+<p></p>
+</div>
+<span>R60</span>
+<button onclick="addToCart('Half Chicken',60)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Full Chicken</h3>
+<p></p>
+</div>
+<span>R100</span>
+<button onclick="addToCart('full chicken',100)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- Fries -->
+
+<section id="fries"class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/sides/fries.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Fried Chips</h2>
+
+<div class="menu-item">
+<div>
+<h3>Small chips</h3>
+<p></p>
+</div>
+<span>R50</span>
+<button onclick="addToCart(' Small chips',50)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Medium Chips</h3>
+<p></p>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Medium chips',50)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Large Chips</h3>
+<p></p>
+</div>
+<span>R80</span>
+<button onclick="addToCart('Large chips',80)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Beef -->
+
+<section id="beefs" class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/menu/steak.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Grilled beef</h2>
+
+<div class="menu-item">
+<div>
+<h3>T-Bone with Brisket</h3>
+<p>120g</p>
+</div>
+<span>R180</span>
+<button onclick="addToCart(' T-Bone with Brisket',180)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Tbone with chunk</h3>
+<p>250g</p>
+</div>
+<span>R280</span>
+<button onclick="addToCart('Tbone with chunk',280)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Brisket and chunk</h3>
+<p>350g</p>
+</div>
+<span>R450</span>
+<button onclick="addToCart('Brisket and chunk',450)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Wings-->
+
+<section id="wings" class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/sides/wings.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Grilled wings</h2>
+
+<div class="menu-item">
+<div>
+<h3>wings 1</h3>
+<p>6 wings</p>
+</div>
+<span>R50</span>
+<button onclick="addToCart('wings 1 ',150)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>wings 2</h3>
+<p>12 wings</p>
+</div>
+<span>R120</span>
+<button onclick="addToCart('wings 2',120)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>wings 3</h3>
+<p>25 wings</p>
+</div>
+<span>R180</span>
+<button onclick="addToCart('wings 3',160)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- Ribs -->
+
+<section id="ribs" class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/menu/Ribs.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Grilled Ribs</h2>
+
+<div class="menu-item">
+<div>
+<h3>Ribs 1</h3>
+<p>60g</p>
+</div>
+<span>R150</span>
+<button onclick="addToCart('Ribs 60g ',150)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Ribs 2</h3>
+<p>220g</p>
+</div>
+<span>R250</span>
+<button onclick="addToCart('Ribs 200 ',250)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Ribs 3</h3>
+<p>300g</p>
+</div>
+<span>R400</span>
+<button onclick="addToCart('Ribs 300g',400)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- Pork -->
+
+<section id="porks" class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/menu/pork.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Pork Chops</h2>
+
+<div class="menu-item">
+<div>
+<h3>PorkChops 1</h3>
+<p>60g</p>
+</div>
+<span>R150</span>
+<button onclick="addToCart('PorkChops 60g ',150)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>PorkChops 2</h3>
+<p>120g</p>
+</div>
+<span>R190</span>
+<button onclick="addToCart('PorkChops 120g',190)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>PorkChops 3</h3>
+<p>250g</p>
+</div>
+<span>R250</span>
+<button onclick="addToCart('PorkChops 250g',250)">Add</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- cold drinks -->
+
+<section id="drinks"class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/drinks/coke.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Cold Drinks</h2>
+<P>All drinks are served in a 750ml Glasses</P>
+<div class="menu-item">
+<div>
+<h3>Coke</h3>
+</div>
+<span>R30</span>
+<button onclick="addToCart('Coke ',30)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Mystery Fanta </h3>
+</div>
+<span>R40</span>
+<button onclick="addToCart('Mystery Fanta',40)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>sprite</h3>
+</div>
+<span>R30</span>
+<button onclick="addToCart('sprite',30)">Add</button>
+</div>
+
+
+
+</div>
+
+</section>
+
+
+<!-- Exclusive Juice -->
+
+<section id="juices"class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/drinks/orange juice.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Juices</h2>
+<P>All drinks are served in a 750ml Glasses</P>
+<div class="menu-item">
+<div>
+<h3>Orange juice</h3>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Orange juice',50)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Blue berry juice </h3>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Blueberry juice',50)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Icey Sunset grape Juice</h3>
+</div>
+<span>R60</span>
+<button onclick="addToCart('grape juice',60)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Tropical watermelon Juice</h3>
+</div>
+<span>R60</span>
+<button onclick="addToCart('watermelon juice',60)">Add</button>
+</div>
+
+
+
+</div>
+
+</section>
+
+
+
+<!-- Exclusive Milkshakes -->
+
+<section id="milkshakes"class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/drinks/milkshake.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Milkshakes</h2>
+<P>All drinks are served in a 750ml Glasses</P>
+<div class="menu-item">
+<div>
+<h3>Strawberry Milkshake</h3>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Strawberry Milkshake',50)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Vanilla Milkshake </h3>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Vanilla Milkshake',50)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Chocolate Milkshake</h3>
+</div>
+<span>R60</span>
+<button onclick="addToCart('Chocolate Milkshake',60)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Mystery mix Milkshake</h3>
+</div>
+<span>R60</span>
+<button onclick="addToCart('Mystery Milkshake',60)">Add</button>
+</div>
+
+
+
+</div>
+
+</section>
+
+
+<!-- Exclusive Alcohol  -->
+
+<section id="alcohol"class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/drinks/savannah.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive Alcohol</h2>
+<P>All drinks are served in a 750ml Glasses</P>
+<div class="menu-item">
+<div>
+<h3>Flying Fish</h3>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Flying Fish',50)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Heineken </h3>
+</div>
+<span>R50</span>
+<button onclick="addToCart('Heineken',50)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>Extreme</h3>
+</div>
+<span>R60</span>
+<button onclick="addToCart('Extreme',60)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Savanna</h3>
+</div>
+<span>R60</span>
+<button onclick="addToCart('Savanna',60)">Add</button>
+</div>
+
+
+
+</div>
+
+</section>
+
+
+<!-- Exclusive ice creams  -->
+
+<section id="icecreams" class="menu-section">
+
+<div class="menu-image">
+<img src="pictures/sides/ice cream cone.jpg">
+</div>
+
+<div class="menu-items">
+
+<h2>Exclusive ice creams</h2>
+<div class="menu-item">
+<div>
+<h3>Vanilla cone with chocolate strip</h3>
+</div>
+<span>R20</span>
+<button onclick="addToCart('vanilla cone',20)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>oreo vanilla ice cream cup </h3>
+</div>
+<span>R40</span>
+<button onclick="addToCart('oreo vanilla ice cream cup',40)">Add</button>
+</div>
+
+
+<div class="menu-item">
+<div>
+<h3>chocolate dipped ice cream cone</h3>
+</div>
+<span>R25</span>
+<button onclick="addToCart('chocolate dipped ice cream cone',25)">Add</button>
+</div>
+
+<div class="menu-item">
+<div>
+<h3>Vanilla with sprinkles cone </h3>
+</div>
+<span>R20</span>
+<button onclick="addToCart('vanilla with sprinkles',20)">Add</button>
+</div>
+
+
+
+</div>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        Exclusives EatOut
+                    </div>
+                    <p class="footer-about">
+                       
+                        The Best Chilled Restaurant in Johannesburg which offers
+                        premium and Exclusive Dishes with the best Service delivery a 
+                        customer could ever ask for.
+
+                    </p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:owenme1000@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+27694616386" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#contactForm">Contact us</a></li>
+                        <li><a href="#experience">About us</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Core Features</h4>
+                    <ul class="footer-links">
+                        <li>Chilled</li>
+                        <li>Authentic</li>
+                        <li>Premium</li>
+                        <li>Fresh</li>
+                        <li>Delicious</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Exclusives EatOut. All rights reserved.</p>
+                <p>Best Chilled Restaurant to eat at. || Woza n Chill with us!!</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
